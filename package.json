@@ -1,0 +1,25 @@
+{
+  "name": "learn-effect-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "tsx",
+    "dev": "tsx watch",
+    "typecheck": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@effect/platform-node": "^4.1.2",
+    "@hono/node-server": "^2.1.5",
+    "effect": "^4.1.2",
+    "hono": "^4.13.16"
+  },
+  "devDependencies": {
+    "@effect/vitest": "^4.1.2",
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "~7.0.2",
+    "vitest": "^5.0.5"
+  }
+}

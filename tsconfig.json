@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "esnext",
+    "lib": ["ES2023"],
+    "types": ["node"],
+    "skipLibCheck": true,
+
+    /* tsx runs the code; tsc only type-checks */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Strictness (Effect relies on strict mode) */
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src", "test"]
+}
