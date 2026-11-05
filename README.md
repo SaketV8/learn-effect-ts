@@ -13,6 +13,8 @@ A small TypeScript project for learning [Effect](https://effect.website) (v4) on
 Write a lesson as a `.ts` file, run it straight away with tsx, and test it with Vitest.
 There is no build step and no browser setup.
 
+### [🌸 Everything All At Once (～￣▽￣)～](./EFFECT-GET-STARTER.md)
+
 ## 🚀 Features
 
 - **Run any file directly**: `pnpm dev <file>` runs a TypeScript file and re-runs it on every save.
